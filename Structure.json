@@ -1,0 +1,39 @@
+{
+    ".gitignore": "gitignore",
+    "AutoCompletionData": [
+        {
+            "specialArgFunctions.tr": "autocompletion of functions"
+        }
+    ],
+    "Documentation": "directory of documentation",
+    "Kernel": [
+        {
+            "Common.wl": "common symbols shared across contexts",
+            "Template": "directory of subcontexts under Yurie`Template`",
+            "Template.wl": "main context"
+        }
+    ],
+    "LICENSE": "license",
+    "Library": "directory of compiled files",
+    "LibrarySource": "directory of source files",
+    "PacletInfo.wl": "paclet information",
+    "README.md": "readme",
+    "Source": "directory of source files",
+    "Test": "directory of unit tests",
+    "TestSource": "directory of unit test sources",
+    "Utility": [
+        {
+            "Info.wl": "paclet information",
+            "Source.wl": "script for operating source files"
+        }
+    ],
+    "Workbench": [
+        {
+            "Compile.nb": "notebook for compiling the source files in LibrarySource",
+            "Source.nb": "notebook for executing Source.wl",
+            "Template.nb": "notebook for developing Template.wl",
+            "Test.nb": "notebook for converting and executing unit tests",
+            "Usage.nb": "notebook for exporting usages"
+        }
+    ]
+}
