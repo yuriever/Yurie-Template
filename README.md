@@ -2,9 +2,7 @@
 
 Paclet template.
 
-## How to use
-
-### Install
+## Install
 
 Install from this repository:
 
@@ -12,26 +10,36 @@ Install from this repository:
 
 2. install the paclet:
 
+    ``` wl
+    PacletInstall@File["the/path/of/paclet"]
     ```
-    PacletInstall@File["the/path/of/paclet"];
+
+Install manually:
+
+1. download this repository;
+
+2. move it to the paclet directory:
+
+    ``` wl
+    $UserBasePacletsDirectory
     ```
 
-Load the package(s):
+## Load
 
-```
-Needs["Yurie`Template`"];
-```
-
-### Upgrade
-
-```
-PacletInstall["Yurie/Template"];
+``` wl
+Needs["Yurie`Template`"]
 ```
 
-### Uninstall
+## Upgrade
 
-```
-PacletUninstall["Yurie/Template"];
+``` wl
+PacletInstall["Yurie/Template"]
 ```
 
-### Documentation
+## Uninstall
+
+``` wl
+PacletUninstall["Yurie/Template"]
+```
+
+## Documentation

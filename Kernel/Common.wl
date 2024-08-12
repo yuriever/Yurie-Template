@@ -7,7 +7,8 @@
 BeginPackage["Yurie`Template`Common`"];
 
 
-(*clear the state-dependent definitions.*)
+(*clear the states when loading.*)
+
 ClearAll["`*"];
 
 
