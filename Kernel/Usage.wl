@@ -1,12 +1,10 @@
-
-
-(*Sub2.wl*)
+(* Sub2.wl *)
 
 addTwo::usage =
 	"add two.";
 
 
-(*Sub.wl*)
+(* Sub.wl *)
 
 addOne::usage =
 	"add one.";
