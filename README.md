@@ -2,6 +2,8 @@
 
 Paclet template.
 
+## Documentation
+
 ## Install
 
 Install from this repository:
@@ -41,5 +43,3 @@ PacletInstall["Yurie/Template"]
 ``` wl
 PacletUninstall["Yurie/Template"]
 ```
-
-## Documentation
