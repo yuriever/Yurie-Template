@@ -12,7 +12,7 @@ BeginPackage["Yurie`Template`Common`"];
 ClearAll["`*"];
 
 
-Needs["Yurie`Template`Info`"];
+Needs["Yurie`Template`Info`"]//Quiet;
 
 
 (* ::Section:: *)

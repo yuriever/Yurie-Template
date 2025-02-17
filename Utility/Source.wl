@@ -7,7 +7,7 @@
 BeginPackage["Yurie`Template`Source`"];
 
 
-Needs["Yurie`Template`Info`"];
+Needs["Yurie`Template`Info`"]//Quiet;
 
 
 (* ::Section:: *)
