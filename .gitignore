@@ -1,13 +1,6 @@
-# macOS system files
-.DS_Store
-
 # VSCode settings
 .vscode/
 
 # Developer workspace
 Workbench/
 TestSource/
-
-# Obsidian vault files
-/.obsidian/
-/.trash/
